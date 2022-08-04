@@ -37845,7 +37845,7 @@ return A.aiM(f,A.aiQ(A.mP(A.b([e,d,s,r,new A.dU(B.lR,n,h),new A.dU(B.lR,m,h),new
 qY(a,b){var s=0,r=A.a1(t.Sa),q,p
 var $async$qY=A.a2(function(c,d){if(c===1)return A.Z(d,r)
 while(true)switch(s){case 0:s=3
-return A.Y(A.aqP(A.jh("http://192.168.0.163:3000/api/clientes/",0,null)),$async$qY)
+return A.Y(A.aqP(A.jh("http://177.92.186.84:8457//api/clientes/",0,null)),$async$qY)
 case 3:p=d
 q=J.uC(B.au.Av(0,A.aqF(J.aE(A.apF(p.e).c.a,"charset")).du(0,p.w),null),new A.a9A(),t.Jl).ef(0)
 s=1
@@ -37913,7 +37913,7 @@ k=q.w
 j=q.y
 s=m===0?20:22
 break
-case 20:m=A.jh("http://192.168.0.163:3000/api/atendimentos",0,null)
+case 20:m=A.jh("http://177.92.186.84:8457/api/atendimentos",0,null)
 l=A.a5(["Content-Type","application/json"],l,l)
 i=q.d
 h=h.a.a
@@ -37922,7 +37922,7 @@ return A.Y(A.aEX(m,B.au.fm(new A.hA(0,i.b,h,h,o.a.a,k.a.a,q.e.toUpperCase(),$.jz
 case 23:A.amw($.bh())
 s=21
 break
-case 22:m=A.jh("http://192.168.0.163:3000/api/atendimentos/"+m,0,null)
+case 22:m=A.jh("http://177.92.186.84:8457/api/atendimentos/"+m,0,null)
 l=A.a5(["Content-Type","application/json"],l,l)
 i=q.d
 h=h.a.a
@@ -38094,7 +38094,7 @@ A.Ed.prototype={
 uD(){var s=0,r=A.a1(t.QY),q,p
 var $async$uD=A.a2(function(a,b){if(a===1)return A.Z(b,r)
 while(true)switch(s){case 0:s=3
-return A.Y(A.aqP(A.jh("http://192.168.0.163:3000/api/"+$.jz,0,null)),$async$uD)
+return A.Y(A.aqP(A.jh("http://177.92.186.84:8457/api/"+$.jz,0,null)),$async$uD)
 case 3:p=b
 q=J.uC(B.au.Av(0,A.aqF(J.aE(A.apF(p.e).c.a,"charset")).du(0,p.w),null),new A.SZ(),t.Z6).ef(0)
 s=1
